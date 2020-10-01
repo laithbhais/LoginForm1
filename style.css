@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: fantasy;
   background-color: orange ;
 }
@@ -12,7 +12,7 @@ body {
   background-color: black;
   color: #d92020;
 }
-input{
+.box input{
   margin: 15px;
   width: 300px;
   height: 30px;
@@ -22,6 +22,10 @@ input{
   border-width: 4px;
   font-size: 20px;
   padding-left: 20px;
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc73;   
 }
 a{
   text-decoration: none;
@@ -33,6 +37,12 @@ a{
   color: white;
   padding-left: 0px;
   background-color: #d92020;
+}
+.submit:hover{
+  width: 200px;
+  cursor: pointer;
+	color: red;
+	background-color: white;
 }
 .d1 h1{
   font-size: 50px;
